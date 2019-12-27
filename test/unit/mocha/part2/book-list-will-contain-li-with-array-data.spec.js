@@ -7,7 +7,7 @@ const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
 
-describe('BookList.vue', () => {
+describe( 'BookList.vue', () => {
   it('should contain li with template interpolation @book-list-will-contain-li-with-interpolation', () => {
     let file;
     try {
